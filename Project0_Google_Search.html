@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            .right {
+                float: right;
+                margin-right: 10px; 
+                font-size: 15px;
+                text-decoration: none;
+                color: black;
+            }
+            .left {
+                float: left;
+                margin-left: 10px;
+                font-size: 15px;
+                text-decoration: none;
+                color: black;
+            }
+            #Google-Search {
+                float:left; 
+                margin-left: 40%;
+            }
+            #Im-Feeling-Lucky {
+                float:right; 
+                margin-right: 40%;
+            }
+            input[type="submit"]:hover { 
+                    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+                }
+            a:hover {
+                    text-decoration: underline;
+                }
+            input[type="text"] {
+                border-radius: 30px;
+                border: 0.5px solid #d4d4d4;
+                margin-left: 28%;
+                margin-top: 10px;
+                width: 45%;
+                height: 50px;
+                padding-left: 10px;
+            }
+            input[type="submit"] {
+                font-family: sans-serif;
+                color:#4e5155;
+                background-color:#eeeeee;
+                border: 0.5px hidden;
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 20px;
+                font-size: 14px;
+            }
+
+            img {
+                height: 135px;
+                width: 300px;
+                margin-left: 40%;
+                margin-right: 50%;
+                margin-top: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="left" href = "Project0_Google_Advanced_Search.html">Advanced Search</a>
+        <a class="right" href = "Project0_Google_Image_Search.html">Images</a>
+        <a class="right" href = "https://gmail.com">Gmail</a>
+        <img src = "Google1.png">
+        <form action="https://google.com/search">
+            <input type="text" name="q" placeholder="Search Google or type a URL">
+            <input id = "Google-Search" type="submit" value="Google Search" name="btnK">
+            <input id = "Im-Feeling-Lucky" type="submit" value="I'm Feeling Lucky" name="btnI">
+        </form>
+    </body>
+</html>
+ 
